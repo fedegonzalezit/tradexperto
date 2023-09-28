@@ -37,11 +37,11 @@ tx.set_indicator("ema_fast", "ema", window=21)
 
 Set the rules:
 ```python
-tx.add_trigger("LONG_OPEN", "(ema_fast + cross sma_slow)")
-tx.add_trigger("LONG_CLOSE", "(ema_fast - cross sma_slow)")
+tx.add_trigger("LONG_OPEN", "(ema_fast +cross sma_slow)")
+tx.add_trigger("LONG_CLOSE", "(ema_fast -cross sma_slow)")
 
-tx.add_trigger("SHORT_OPEN", "(ema_fast - cross sma_slow)")
-tx.add_trigger("SHORT_CLOSE", "(ema_fast + cross sma_slow)")
+tx.add_trigger("SHORT_OPEN", "(ema_fast -cross sma_slow)")
+tx.add_trigger("SHORT_CLOSE", "(ema_fast +cross sma_slow)")
 ```
 
 You are done! Test the strategy:
