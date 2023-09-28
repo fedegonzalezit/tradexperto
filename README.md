@@ -77,7 +77,7 @@ Before creating TradeXperto, I developed several scripts that I'm integrating in
 | Multiple assets and multiple strategies | :x: | :x: | :x: |
 | Metatrader bot | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Telegram alarm | :white_check_mark: | :x: | :x: |
-| Binance bot | :x: | :x: | :x: |
+| Binance bot | :white_check_mark: | :x: | :x: |
 
 #### TradeXperto 1.1
 | Feature                  | Developed | Integrated | Tested |
