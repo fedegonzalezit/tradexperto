@@ -1,6 +1,7 @@
 # TradeXperto
 
-Hi! I'm Federico, an Electronic Engineer and an algorithmic trader. When I was attending a subject at the university I made a project which uses a genetic algorithm to find the best parameters for a trading strategy. In that moment I realized that I was developing a noval framework for creating, testing and optimizing trading strategies based on classical rules or machine learning models. I decided to continue working on it and I created TradeXperto.
+This project will be a framework for algorithmic trading that allows you to create, test, and optimize trading strategies based on rules or machine learning models.
+Also, this will allow you to deploy trading bots as telegram alerts or MetaTrader agents.
 
 ## Design
 ![TradeXperto Diagram](https://github.com/fedegonzalezit/tradexperto/assets/65198435/c0b350c8-5c56-4128-9cc6-afd6908bf1d1)
